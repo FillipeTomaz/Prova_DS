@@ -14,11 +14,11 @@ public class ContaController{
     @Autowired
     private ContaService contaService;
 
-    /*@GetMapping("/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<ContaDTO> findById(@PathVariable Long id) {
         ContaDTO contaDTO = contaService.findById(id);
         return ResponseEntity.ok(contaDTO);
-    }*/
+    }
 
 
 
